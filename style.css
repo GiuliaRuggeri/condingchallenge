@@ -1,0 +1,67 @@
+body{
+    background-image: url("img/background.jpg");
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 200px;
+}
+
+header > div{
+    text-align: center;
+}
+
+header div h1{
+    color: limegreen;
+    margin-bottom: 10p;
+}
+
+.bottoni{
+    background-color: limegreen;
+    text-align: center;
+    padding: 10px;
+}
+
+.monopattini > h2{
+    display: inline-block;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.monopattini{
+    color: white;
+}
+
+.frecciaindirizzo:before{
+    content: "\21A6";
+}
+
+.barracarica{
+    height: 20px;
+    border-radius: 3px;
+}
+
+.barracarica.media{
+    background-color: orange;
+    width: 30%;
+}
+
+.barracarica.piena{
+    background-color: lightgreen;
+    width: 50%;
+}
+
+.barracarica.scarica{
+    background-color: red;
+    width: 10%;
+}
